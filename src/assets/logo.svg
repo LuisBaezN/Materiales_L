@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materiales Les</title>
-</head>
-
-<style>
-    .logo{
-        width: 700px;
-    }
-</style>
-
-<body>
-    <h1>Materiales Leslie</h1>
-    
-    <svg viewBox="0 0 500 500">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" zoomAndPan="magnify" viewBox="0 0 500 500" height="500" preserveAspectRatio="xMidYMid meet" version="1.0">
 
         <g transform="matrix(1 0 0 1 131.51 85.68)" id="Oreja derecha">
             <path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; 
@@ -96,4 +78,3 @@
             C -15 11.5 -16 12 -17 12 z" stroke-linecap="round" />
         </g>
     </svg>
-</body>
