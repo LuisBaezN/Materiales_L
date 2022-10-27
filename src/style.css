@@ -6,19 +6,21 @@ body{
     margin: 0;
 }
 
-nav
-
-section{
-    position: relative;
-    top: 90px;
-    width: 98%;
-    left: 3px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 14px;
-}
-
 p{
     text-align: center;
+}
+
+.void{
+    height: 100px;
+}
+
+.loader{
+    display: grid;
+    justify-content: center;
+}
+
+.load-elem{
+    position: relative;
+    left: 45px;
+    width: 75%;
 }
