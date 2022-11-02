@@ -10,17 +10,161 @@ p{
     text-align: center;
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #35568F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 .void{
     height: 100px;
 }
 
+.big-void{
+    height: 7000px;
+    background-color: aquamarine;
+}
+
 .loader{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
     display: grid;
     justify-content: center;
+    z-index: 100;
 }
 
 .load-elem{
     position: relative;
     left: 45px;
     width: 75%;
+}
+
+.hide{
+    background-color: white;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 1000ms ease-out;
+}
+
+.logo{
+    position: relative;
+    top: 7px;
+    width: 50px;
+}
+.logo2{
+    position: relative;
+    display: none;
+    top: 7px;
+    width: 50px;
+}
+
+.logoMob{
+    display: none;
+}
+
+.name{
+    width: 275px;
+}
+
+.logo-name{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu{
+    position: relative;
+    top: 5px;
+    left: 17px;
+    width: 30px;
+    height: 60px;    
+    display: none;
+}
+
+.nav-sec ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-sec li{
+    list-style: none;
+    padding: 3rem;
+    display: block;
+}
+
+.nav-sec li:hover{
+    background-color: steelblue;
+}
+
+.nav-sec-mob{
+    display: none;
+}
+
+@media (max-width: 1003px){
+    .menu{
+        display: flex;
+    }
+
+    .nav-sec{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .name{
+        width: 150px;
+    }
+    .logoMob{
+        display: block;
+        width: 30px;
+    }
+    .logo2{
+        display: flex;
+        top: 5px;
+        right: 20px;
+        width: 50px;
+    }
+    .nav-sec-mob{
+        display: none;
+        position: fixed;
+        top: 60px;
+        width: 200px;
+        background-color: steelblue;
+    }
+    .nav-sec-mob li{
+        list-style: none;
+        padding: 1rem;
+        display: block;
+        border-color: black;
+    }
+
+    .nav-sec-mob.active { 
+        display: flex;
+        animation: sub-menu 7500ms ease-out;
+    }
+
+}
+
+
+@keyframes sub-menu {
+    0% {
+        transform: translateX(-110);
+    }
+    100% {
+        transform: translate(0);
+    }
 }
