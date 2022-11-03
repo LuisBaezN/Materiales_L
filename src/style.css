@@ -26,15 +26,30 @@ a{
     color: antiquewhite;
 }
 
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
 /*///////////////////////// Página de carga /////////////////////////*/
 
 .void{
     height: 100px;
 }
 
+.void-dep{
+    height: 100px;
+}
+
 .big-void{
     height: 7000px;
     background-color: aquamarine;
+}
+
+.small-void{
+    width: 2vh;
+    height: 50px;
 }
 
 .loader{
@@ -124,7 +139,7 @@ a{
 
 .portada{
     top: 780px;
-    height: 90vh;
+    height: 97vh;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CSU_Spur_Terra_construction_2021-03-31.jpg/1280px-CSU_Spur_Terra_construction_2021-03-31.jpg);
     background-size: cover;
     background-position: center;
@@ -164,6 +179,81 @@ a{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg);
     width: 55px;
     height: 55px;
+}
+
+/*//////////////////////// Departamentos ////////////////////////////*/
+
+.depart{
+    background-image: url(assets/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dept-left{
+    display: grid;
+    justify-content: space-around;
+}
+
+.dep-tit{
+    font-size: xx-large;
+    padding: 30px;
+}
+
+.dep-tit-mob{
+    display: none;
+}
+
+.dept-img{
+    position: relative;
+    top: 120px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Construction_workers_in_Iran_03.jpg/1280px-Construction_workers_in_Iran_03.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.plom-img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sticking_the_tees_into_the_pvc.jpg/135px-Sticking_the_tees_into_the_pvc.jpg);
+    background-position: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+}
+
+.const-img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Brick_wall_old.jpg/185px-Brick_wall_old.jpg);
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+}
+
+.ferr-img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/NHB_Groundbreaking_Shovel_-_Flickr_-_The_Central_Intelligence_Agency.jpg/320px-NHB_Groundbreaking_Shovel_-_Flickr_-_The_Central_Intelligence_Agency.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140%;
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+}
+
+.dept{
+    margin-left: 2vh;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    
+    font-size: x-large;
+    font-weight: bold;
 }
 
 /*//////////////////////// Animaciones ////////////////////////////*/
@@ -226,6 +316,31 @@ a{
         font-size: xx-large;
         color: white;
         text-shadow:  0 0 3px #000000, 0 0 5px #000000;
+    }
+
+    .dep-tit{
+        display: none;
+    }
+
+    .dept-img{
+        display: none;
+    }
+
+    .depart{
+        background-image: none;
+    }
+
+    .dep-tit-mob{
+        display: flex;
+    }
+
+    .void-dep{
+        display: none;
+    }
+
+    .boton{
+        width: 170px;
+        height: 60px;
     }
 }
 
