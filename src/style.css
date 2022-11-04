@@ -27,9 +27,15 @@ a{
 }
 
 footer{
-    width: 100%;
-    height: 40vh;
+    padding: 3vh;
+    width: 97%;
+    height: 20vh;
     background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*///////////////////////// Página de carga /////////////////////////*/
@@ -72,7 +78,7 @@ footer{
 .hide{
     background-color: white;
     opacity: 0;
-    z-index: 0;
+    z-index: -1;
     transition: opacity 1000ms ease-out;
 }
 
@@ -174,7 +180,7 @@ footer{
 
 .whats{
     position: fixed;
-    top: 90vh;
+    top: 85vh;
     right: 1vh;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg);
     width: 55px;
@@ -189,7 +195,7 @@ footer{
     background-position: center;
     background-size: 27%;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
 }
@@ -225,6 +231,7 @@ footer{
     width: 75px;
     height: 75px;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .const-img{
@@ -233,16 +240,18 @@ footer{
     width: 75px;
     height: 75px;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .ferr-img{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/NHB_Groundbreaking_Shovel_-_Flickr_-_The_Central_Intelligence_Agency.jpg/320px-NHB_Groundbreaking_Shovel_-_Flickr_-_The_Central_Intelligence_Agency.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 140%;
+    background-size: 150%;
     width: 75px;
     height: 75px;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .dept{
@@ -251,9 +260,23 @@ footer{
     width: 300px;
     display: flex;
     align-items: center;
-    
     font-size: x-large;
     font-weight: bold;
+}
+
+/*//////////////////////// Footer ////////////////////////////*/
+
+.ubicacion{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hor{
+    display: grid;
+    align-items: center;
 }
 
 /*//////////////////////// Animaciones ////////////////////////////*/
@@ -341,6 +364,11 @@ footer{
     .boton{
         width: 170px;
         height: 60px;
+    }
+
+    footer{
+        justify-content: space-around;
+        width: 90%;
     }
 }
 
