@@ -36,6 +36,11 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    z-index: -3;
+}
+
+li{
+    list-style: none;
 }
 
 /*///////////////////////// Página de carga /////////////////////////*/
@@ -127,7 +132,6 @@ footer{
 }
 
 .nav-sec li{
-    list-style: none;
     padding: 3rem;
     display: block;
 }
@@ -279,6 +283,40 @@ footer{
     align-items: center;
 }
 
+/*//////////////////////// Catálogo ////////////////////////////*/
+
+.catalog{
+    top: 15vh;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-around;
+    z-index: -3;
+}
+
+.Construcción{
+    background-color: cadetblue;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.Ferretería{
+    background-color: burlywood;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.Plomería{
+    background-color: cornsilk;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+}
+
 /*//////////////////////// Animaciones ////////////////////////////*/
 
 @media (max-width: 1003px){
@@ -369,6 +407,25 @@ footer{
     footer{
         justify-content: space-around;
         width: 90%;
+    }
+
+    .catalog{
+        top: 11vh;
+        height: 1200px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .Ferretería{
+        height: fit-content;
+    }
+
+    .Construcción{
+        height: fit-content;
+    }
+
+    .Plomería{
+        height: fit-content;
     }
 }
 

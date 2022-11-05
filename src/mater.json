@@ -1,0 +1,160 @@
+{
+    "Construcción": {
+        "Cemento": {
+            "brand":"Cruz Azul",
+            "price":0.0
+        },
+        "Cemento Blanco": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cal": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Estuco": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Yeso": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Armex": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Varilla": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Alambre": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Alambrón": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Malla": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Estribo": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Block": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Ladrillo": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Vigueta": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Bovedilla": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Arena": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Grava": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Piedra": {
+            "brand":"NA",
+            "price":0.0
+        }
+    },
+    "Ferretería": {
+        "Manguera corrugada": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Flexómetro": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Pala": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cuchara": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Hilo": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Pegamento": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Silicón": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Resistencia": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Segueta": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Pega azulejo": {
+            "brand":"NA",
+            "price":0.0
+        }
+    },
+    "Plomería": {
+        "Tubo de PVC 2in": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tubo de PVC 3in": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tubo de PVC 4in": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tubo de PVC 6in": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Codo de 6in en 45°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Codo de 6in en 90°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Redistribución de 2 a 4": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Reducción de 2 a 3": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Reducción de 2 a 4": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Reducción de 3 a 4": {
+            "brand":"NA",
+            "price":0.0
+        }
+    }
+}
