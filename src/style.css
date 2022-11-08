@@ -286,7 +286,9 @@ li{
 /*//////////////////////// Catálogo ////////////////////////////*/
 
 .catalog{
-    top: 15vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/John_Sudam_House%2C_Wall_and_Main_Streets%2C_Kingston%2C_Ulster_County%2C_NY_HABS_NY%2C56-KING%2C4-_%28sheet_1_of_10%29.png/1257px-John_Sudam_House%2C_Wall_and_Main_Streets%2C_Kingston%2C_Ulster_County%2C_NY_HABS_NY%2C56-KING%2C4-_%28sheet_1_of_10%29.png);
+    background-position: center;
+    top: 12vh;
     position: relative;
     width: 100%;
     height: 80vh;
@@ -300,21 +302,93 @@ li{
     background-color: cadetblue;
     width: 250px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .Ferretería{
     background-color: burlywood;
     width: 250px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .Plomería{
     background-color: cornsilk;
     width: 250px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/*//////////////////////// Nosotros ////////////////////////////*/
+
+.nos{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bf/Septic_sewer_repair_in_Gwynns_Falls-Leakin_Park.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 7vh;
+    width: 100%;
+    height: 50vh;
+    padding: 2vh;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    text-align: justify;
+
+}
+
+.map-val{
+    position: relative;
+    top: 13vh;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height: 500px;
+}
+
+.mis-vis{
+    display: grid;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    text-align: justify;
+}
+
+.map-val-img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FirmaHahn_Pfettrach_1950.png/1177px-FirmaHahn_Pfettrach_1950.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 500px;
+}
+
+.mis{
+    padding: 7px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scattered_white_paper_%28Unsplash%29.jpg/534px-Scattered_white_paper_%28Unsplash%29.jpg);
+    background-position: center;
+    height: 150px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.vis{
+    padding: 7px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_13.JPG/640px-Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_13.JPG);
+    background-position: center;
+    background-size: 100%;
+    height: 150px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
 }
 
 /*//////////////////////// Animaciones ////////////////////////////*/
@@ -412,6 +486,7 @@ li{
     .catalog{
         top: 11vh;
         height: 1200px;
+        width: 96%;
         display: grid;
         justify-content: center;
     }
@@ -426,6 +501,24 @@ li{
 
     .Plomería{
         height: fit-content;
+    }
+
+    .nos{
+        top:5vh;
+        width: 93%;
+    }
+
+    .map-val-img{
+        display: none;
+    }
+
+    .map-val{
+        height: 1100px;
+        display: grid;
+    }
+
+    .mis-vis{
+        height: 400px;
     }
 }
 
