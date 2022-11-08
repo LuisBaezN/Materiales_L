@@ -283,6 +283,10 @@ li{
     align-items: center;
 }
 
+.info-foot{
+    width: 300px;
+}
+
 /*//////////////////////// Catálogo ////////////////////////////*/
 
 .catalog{
@@ -379,6 +383,8 @@ li{
     height: 150px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
+    text-shadow:  0 0 3px #000000, 0 0 5px #000000;
 }
 
 .vis{
