@@ -148,8 +148,8 @@
         }
     },
     "Plomería": {
-        "Tubo PVC": {
-            "brand":"2\", 3\", 4\" y 6\"",
+        "Tubo 2\"": {
+            "brand":"NA",
             "price":0.0
         },
         "Codo 2\" x 45°": {
@@ -157,6 +157,70 @@
             "price":0.0
         },
         "Codo 2\" x 90°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tee 2\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Y 2\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cople 2\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tubo 3\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Codo 3\" x 45°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Codo 3\" x 90°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tee 3\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Y 3\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cople 3\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tubo 4\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Codo 4\" x 45°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Codo 4\" x 90°": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tee 4\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Y 4\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cople 4\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Tubo 6\"": {
             "brand":"NA",
             "price":0.0
         },
@@ -168,20 +232,16 @@
             "brand":"NA",
             "price":0.0
         },
-        "Tee": {
-            "brand":"2\"",
-            "price":0.0
-        },
-        "Y": {
-            "brand":"2\"",
-            "price":0.0
-        },
-        "Cople": {
-            "brand":"2\"",
-            "price":0.0
-        },
-        "Redistribución de 2 a 4": {
+        "Tee 6\"": {
             "brand":"NA",
+            "price":0.0
+        },
+        "Y 6\"": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cople 6\"": {
+            "brand":"2\"",
             "price":0.0
         },
         "Reducción de 2 a 3": {
