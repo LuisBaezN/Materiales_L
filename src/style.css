@@ -296,8 +296,9 @@ li{
 .catalog{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/John_Sudam_House%2C_Wall_and_Main_Streets%2C_Kingston%2C_Ulster_County%2C_NY_HABS_NY%2C56-KING%2C4-_%28sheet_1_of_10%29.png/1257px-John_Sudam_House%2C_Wall_and_Main_Streets%2C_Kingston%2C_Ulster_County%2C_NY_HABS_NY%2C56-KING%2C4-_%28sheet_1_of_10%29.png);
     background-position: center;
+    background-size: 120%;
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 80vh;
     padding: 7vh;
     display: flex;
@@ -511,6 +512,7 @@ li{
 
     .catalog{
         top: 3vh;
+        background-size: 270%;
         height: 1700px;
         width: 75%;
         display: grid;
