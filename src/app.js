@@ -27,9 +27,7 @@ function place(products){
                 li.innerText = j + '.';
             }
             ul.appendChild(li);
-
         }
-        console.log(i);
     }
 }
 
