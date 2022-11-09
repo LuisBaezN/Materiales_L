@@ -188,7 +188,7 @@ li{
 
 .whats{
     position: fixed;
-    top: 90vh;
+    top: 85vh;
     right: 1vh;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg);
     width: 55px;
@@ -470,8 +470,7 @@ li{
         display: none;
     }
 
-    .letr-port-mob{
-        
+    .letr-port-mob{     
         display: grid;
         justify-content: space-around;
         font-size: xx-large;
@@ -513,7 +512,7 @@ li{
     .catalog{
         top: 3vh;
         height: 1700px;
-        width: 76%;
+        width: 75%;
         display: grid;
         justify-content: center;
     }
