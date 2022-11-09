@@ -21,8 +21,13 @@ function place(products){
         sec.appendChild(ul);
         for (let j in products[i]){
             li = document.createElement('li');
-            li.innerText = j;
+            if (products[i][j].brand != 'NA'){
+                li.innerHTML = j + ':<p class="brand-font">' + products[i][j].brand +'.</p>';
+            } else {
+                li.innerText = j + '.';
+            }
             ul.appendChild(li);
+
         }
         console.log(i);
     }

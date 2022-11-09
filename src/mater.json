@@ -1,7 +1,7 @@
 {
     "Construcción": {
         "Cemento": {
-            "brand":"Cruz Azul",
+            "brand":"Cruz Azul, Fortaleza y Tolteca",
             "price":0.0
         },
         "Cemento Blanco": {
@@ -9,14 +9,18 @@
             "price":0.0
         },
         "Cal": {
-            "brand":"NA",
+            "brand":"Calidra, Santa Emilia y Santa Inés",
             "price":0.0
         },
         "Estuco": {
+            "brand":"Cemix y Mezcla brava",
+            "price":0.0
+        },
+        "Yeso Amarrado": {
             "brand":"NA",
             "price":0.0
         },
-        "Yeso": {
+        "Pega azulejo": {
             "brand":"NA",
             "price":0.0
         },
@@ -25,7 +29,7 @@
             "price":0.0
         },
         "Varilla": {
-            "brand":"NA",
+            "brand":"3/8, 1/2, 5/8 y 3/4",
             "price":0.0
         },
         "Alambre": {
@@ -33,19 +37,19 @@
             "price":0.0
         },
         "Alambrón": {
-            "brand":"NA",
+            "brand":"1/4",
             "price":0.0
         },
         "Malla": {
-            "brand":"NA",
+            "brand":"10-10, 8-8 y 6-6",
             "price":0.0
         },
         "Estribo": {
-            "brand":"NA",
+            "brand":"Medida especial",
             "price":0.0
         },
         "Block": {
-            "brand":"NA",
+            "brand":"12, 14 y aparente",
             "price":0.0
         },
         "Ladrillo": {
@@ -75,19 +79,23 @@
     },
     "Ferretería": {
         "Manguera corrugada": {
+            "brand":"1/2 y 3/4",
+            "price":0.0
+        },
+        "Manguera de nivel": {
             "brand":"NA",
             "price":0.0
         },
         "Flexómetro": {
-            "brand":"NA",
+            "brand":"8m, 5.5m y 3m",
             "price":0.0
         },
         "Pala": {
-            "brand":"NA",
+            "brand":"Trupper y Pretul",
             "price":0.0
         },
         "Cuchara": {
-            "brand":"NA",
+            "brand":"7\" a 10\" ",
             "price":0.0
         },
         "Hilo": {
@@ -110,34 +118,66 @@
             "brand":"NA",
             "price":0.0
         },
-        "Pega azulejo": {
+        "Bicolor": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cinta de aislar": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Cuña": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Teflón": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Caja de registro": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Coladera": {
+            "brand":"NA",
+            "price":0.0
+        },
+        "Lija": {
             "brand":"NA",
             "price":0.0
         }
     },
     "Plomería": {
-        "Tubo de PVC 2in": {
+        "Tubo PVC": {
+            "brand":"2\", 3\", 4\" y 6\"",
+            "price":0.0
+        },
+        "Codo 2\" x 45°": {
             "brand":"NA",
             "price":0.0
         },
-        "Tubo de PVC 3in": {
+        "Codo 2\" x 90°": {
             "brand":"NA",
             "price":0.0
         },
-        "Tubo de PVC 4in": {
+        "Codo 6\" x 45°": {
             "brand":"NA",
             "price":0.0
         },
-        "Tubo de PVC 6in": {
+        "Codo 6\" x 90°": {
             "brand":"NA",
             "price":0.0
         },
-        "Codo de 6in en 45°": {
-            "brand":"NA",
+        "Tee": {
+            "brand":"2\"",
             "price":0.0
         },
-        "Codo de 6in en 90°": {
-            "brand":"NA",
+        "Y": {
+            "brand":"2\"",
+            "price":0.0
+        },
+        "Cople": {
+            "brand":"2\"",
             "price":0.0
         },
         "Redistribución de 2 a 4": {

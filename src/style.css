@@ -292,38 +292,45 @@ li{
 .catalog{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/John_Sudam_House%2C_Wall_and_Main_Streets%2C_Kingston%2C_Ulster_County%2C_NY_HABS_NY%2C56-KING%2C4-_%28sheet_1_of_10%29.png/1257px-John_Sudam_House%2C_Wall_and_Main_Streets%2C_Kingston%2C_Ulster_County%2C_NY_HABS_NY%2C56-KING%2C4-_%28sheet_1_of_10%29.png);
     background-position: center;
-    top: 12vh;
     position: relative;
     width: 100%;
     height: 80vh;
     padding: 1vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     z-index: -3;
 }
 
 .Construcción{
     background-color: cadetblue;
-    width: 250px;
-    height: 450px;
+    width: 310px;
+    height: 550px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .Ferretería{
     background-color: burlywood;
-    width: 250px;
-    height: 450px;
+    width: 310px;
+    height: 550px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .Plomería{
     background-color: cornsilk;
-    width: 250px;
-    height: 450px;
+    width: 310px;
+    height: 550px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.brand-font{
+    color: rgb(87, 82, 82);
+    line-height: 80%;
+    margin: 0%;
+    text-align-last: left;
 }
 
 /*//////////////////////// Nosotros ////////////////////////////*/
@@ -377,10 +384,10 @@ li{
 }
 
 .mis{
-    padding: 7px;
+    padding: 17px;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Scattered_white_paper_%28Unsplash%29.jpg/534px-Scattered_white_paper_%28Unsplash%29.jpg);
     background-position: center;
-    height: 150px;
+    height: 140px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     color: white;
@@ -388,11 +395,11 @@ li{
 }
 
 .vis{
-    padding: 7px;
+    padding: 17px;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_13.JPG/640px-Catedral_de_Puebla%2C_M%C3%A9xico%2C_2013-10-11%2C_DD_13.JPG);
     background-position: center;
     background-size: 100%;
-    height: 150px;
+    height: 140px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     color: white;
@@ -492,8 +499,8 @@ li{
     }
 
     .catalog{
-        top: 11vh;
-        height: 1200px;
+        top: 7vh;
+        height: 1700px;
         width: 96%;
         display: grid;
         justify-content: center;
