@@ -1,5 +1,4 @@
 # Materiales Les
-Sitio web para el negocio de venta de materiales para construcción "Les"
 
 Web site developed to show the ubication, contact and construction products sold by Materiales Les.
 
